@@ -1,6 +1,9 @@
 The Parasites game save backup tool.
 
 First of all, I realize that this page is not good in grammar and order, I will update it soon.
+I'm not a programmer. I'm just one electronics technician who likes to play with codes.
+
+About this tool :
 
 This PowerShell script creates a backup folder under The Parasites game root folder.
 Checks modified date for save files and creates back-up then takes a screenshot.
@@ -14,6 +17,7 @@ You can check Virustotal scan results for TP_Save_Backup_Tool.zip below
 https://www.virustotal.com/gui/url/ce39f99a22ad301b806adbbf6ab8a19b9ecae34884d079395609b1db7cd758db/details
 
 How to use :
+
 Download TP_Save_Backup_Tool.zip or .ps1 file.
 Copy ps1 file or extract zip file to The Parasites game's root folder where TheParasites.exe is.
 run TP_Save_Backup_Tool.exe it will run TheParasites.exe , create "SaveBackups" folder under Parasites game's root folder and make first backup.
@@ -30,6 +34,7 @@ For Powershell you need to run Set-ExecutionPolicy: with admin rights.
   Set-ExecutionPolicy Bypass <-- Nothing is blocked and there are no warnings or prompts.
 
 Performance : 
+
 I have AMD Ryzen 5 5600 6-Core Processor, PowerColor RX 6700 XT Red Devil 12GB gpu, 32Gb 3600Mhz ram, 512gb gen4 Kingston Nv2 ssd as bootdrive and 1Tb KIOXIA-EXCERIA G2 Gen3 SSD as gamedrive.
 Tools resource usage in my is:
 When Sleep ~40Mb Ram %0 Cpu
@@ -37,7 +42,8 @@ When Checking if there had been a change ~40Mb Ram ~%0.5 Cpu
 When taking screenshot an backing up ~80Mb Ram ~%2 Cpu
 I haven't observed a remarkable FPS drop.
 
-How it works 
+How it works :
+
 * get current folder
 * check if save folder exist
 * check if BackupFolder folder exist 
@@ -55,7 +61,13 @@ How it works
 * return to wait 30 seconds.
 *and repeat
 
-Have Fun!! Happy Surviving !!
+My future plans this tool:
+
+If you check source code, you'll see tool has may options ready to implement.
+I'll research whats best way to implement settings (external file, registry vs.) than decide what to do.
+Its most likely ill make separe app that displays settings and stores them in registry . 
+
+Have Fun!! Happy Surviving !! Muffins & Cakes !!!!!!
 
 Author: Barbatos Lupus Rex | License: CC0
 
