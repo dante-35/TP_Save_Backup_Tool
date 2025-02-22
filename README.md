@@ -33,16 +33,16 @@ When taking screenshot an backing up ~80Mb Ram ~%2 Cpu
 I haven't observed a remarkable FPS drop.
 
 How it works 
-*get current folder
-*check if save folder exist
-*check if BackupFolder folder exist 
-*create BackupFolder folder if it doesn't exist 
-*check if game is running
-*run game if its not running
-*wait 20secs for game to start
-*check if the last save backed up
-*if its not take screenshot and backup last save
-*---loop point---
+* get current folder
+* check if save folder exist
+* check if BackupFolder folder exist 
+* create BackupFolder folder if it doesn't exist 
+* check if game is running
+* run game if its not running
+* wait 20secs for game to start
+* check if the last save backed up
+* if its not take screenshot and backup last save
+* ---loop point---
 * wait 30 seconds
 * Check Save file's last modified date
 * if its new wait 5 secs to give time to game to finish writing save file. take a screenshot and backup save
