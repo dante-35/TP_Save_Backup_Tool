@@ -1,3 +1,5 @@
+The Parasites game save backup tool.
+
 First of all, I realize that this page is not good in grammar and order, I will update it soon.
 
 This PowerShell script creates a backup folder under The Parasites game root folder.
