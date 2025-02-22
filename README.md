@@ -7,8 +7,10 @@ I've made this tool to make regular backups of The Parasites game save file.
 Powershell scripts normally wants special permission to run so i've compiled it using Markus Scholtes's PS2EXE.
 If you want you can download my script and compile it using PS2EXE.
 You can get PS2EXE from Markus Scholtes's github page https://github.com/MScholtes/PS2EXE
+
 You can check Virustotal scan results for TP_Save_Backup_Tool.zip below
 https://www.virustotal.com/gui/url/ce39f99a22ad301b806adbbf6ab8a19b9ecae34884d079395609b1db7cd758db/details
+
 How to use :
 Download TP_Save_Backup_Tool.zip or .ps1 file.
 Copy ps1 file or extract zip file to The Parasites game's root folder where TheParasites.exe is.
